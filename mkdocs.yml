@@ -1,6 +1,5 @@
 site_name: AI for ALS Research
 site_description: A practical AI training program for ALS TDI researchers, scientists, and staff
-site_author: ALS TDI
 docs_dir: docs
 site_dir: site
 
@@ -27,12 +26,10 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - navigation.path
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.code.annotate
     - toc.integrate
 
 extra_css:
@@ -40,7 +37,6 @@ extra_css:
 
 plugins:
   - search
-  - glightbox
 
 markdown_extensions:
   - admonition
@@ -52,7 +48,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
-  - md_in_html
   - tables
   - toc:
       permalink: true
