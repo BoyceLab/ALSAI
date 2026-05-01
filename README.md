@@ -20,7 +20,7 @@ A practical AI training curriculum for **ALS TDI** researchers, scientists, and 
 
 ## ⚠️ Data Privacy
 
-This training program contains no patient data. All example data in prompt templates is fictional or de-identified. See [Module 6 security guidance](docs/module-6/antigravity.md#security-data-governance-checklist) for guidance on using AI tools safely with research data.
+This training program contains no patient data. All example data in prompt templates is fictional or de-identified. See [Module 6 security guidance](docs/module-6/antigravity.md#security-data-governance-checklist) for guidance on using AI tools safely with research data..
 
 
 
