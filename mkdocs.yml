@@ -1,11 +1,8 @@
 site_name: AI for ALS Research
 site_description: A practical AI training program for ALS TDI researchers, scientists, and staff
 site_author: ALS TDI
-site_url: https://alstdi.github.io/als-ai-training/
-
-repo_name: alstdi/als-ai-training
-repo_url: https://github.com/alstdi/als-ai-training
-edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
 
 theme:
   name: material
@@ -37,15 +34,6 @@ theme:
     - content.code.copy
     - content.code.annotate
     - toc.integrate
-  icon:
-    repo: fontawesome/brands/github
-
-extra:
-  social:
-    - icon: fontawesome/solid/globe
-      link: https://www.als.net
-    - icon: fontawesome/brands/github
-      link: https://github.com/alstdi
 
 extra_css:
   - assets/custom.css
@@ -57,22 +45,12 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
   - tables

@@ -8,57 +8,58 @@ Covering everything from how large language models work to hands-on use of Claud
 
 ## Curriculum Overview
 
-<div class="grid cards" markdown>
+### 🧱 Module 1 — Foundations of AI
+Foundation models, transformers, vector embeddings, and how LLMs actually work.
 
--   :material-cube-outline: **Module 1 — Foundations of AI**
+- [Foundation Models](module-1/foundation-models.md)
+- [Large Language Models](module-1/large-language-models.md)
+- [Why LLMs Appear Smart](module-1/why-llms-appear-smart.md)
 
-    ---
+---
 
-    Foundation models, transformers, vector embeddings, and how LLMs actually work.
+### 🔧 Module 2 — Working with AI
+Fine-tuning models for specialized domains, hallucination risks, and LLM security vulnerabilities.
 
-    [:octicons-arrow-right-24: Start Module 1](module-1/foundation-models.md)
+- [Fine-Tuning LLMs](module-2/fine-tuning.md)
+- [Competence & Hallucination](module-2/competence-hallucination.md)
+- [LLM Vulnerabilities](module-2/vulnerabilities.md)
 
--   :material-wrench-outline: **Module 2 — Working with AI**
+---
 
-    ---
+### 🖼️ Module 3 — Image & Multimodal AI
+GANs, diffusion models, and synthetic image generation for biomedical research.
 
-    Fine-tuning models, hallucination risks, and LLM security vulnerabilities.
+- [Image Generation](module-3/image-generation.md)
+- [Autoencoders & Diffusion](module-3/autoencoders-diffusion.md)
 
-    [:octicons-arrow-right-24: Start Module 2](module-2/fine-tuning.md)
+---
 
--   :material-image-outline: **Module 3 — Image & Multimodal AI**
+### 🧮 Module 4 — Symbolic AI
+Rule-based reasoning, formal methods, and hybrid AI for transparent, auditable decisions.
 
-    ---
+- [Symbolic AI Fundamentals](module-4/symbolic-ai.md)
+- [Business Applications](module-4/applications.md)
+- [Limitations & Hybrid AI](module-4/limitations-hybrid.md)
+- [Formal Methods](module-4/formal-methods.md)
 
-    GANs, diffusion models, and synthetic image generation for biomedical research.
+---
 
-    [:octicons-arrow-right-24: Start Module 3](module-3/image-generation.md)
+### 🗄️ Module 5 — Data & Databases
+Relational calculus, query optimization, chase algorithms, and scalable data integration.
 
--   :material-calculator-variant-outline: **Module 4 — Symbolic AI**
+- [Relational Calculus](module-5/relational-calculus.md)
+- [Calculus vs. Algebra](module-5/calculus-vs-algebra.md)
+- [Query Optimization](module-5/query-optimization.md)
+- [Chase Algorithm](module-5/chase-algorithm.md)
+- [Data Integration at Scale](module-5/data-integration.md)
 
-    ---
+---
 
-    Rule-based reasoning, formal methods, and hybrid AI for transparent decisions.
+### ✦ Module 6 — AI Tools for Researchers
+Hands-on guides to Claude and Google Antigravity for real research workflows.
 
-    [:octicons-arrow-right-24: Start Module 4](module-4/symbolic-ai.md)
-
--   :material-database-outline: **Module 5 — Data & Databases**
-
-    ---
-
-    Relational calculus, query optimization, chase algorithms, and data integration.
-
-    [:octicons-arrow-right-24: Start Module 5](module-5/relational-calculus.md)
-
--   :material-star-outline: **Module 6 — AI Tools for Researchers**
-
-    ---
-
-    Hands-on guides to Claude and Google Antigravity for research workflows.
-
-    [:octicons-arrow-right-24: Start Module 6](module-6/claude-anthropic.md)
-
-</div>
+- [Claude & Anthropic for Research](module-6/claude-anthropic.md)
+- [Google Antigravity for Bioinformatics](module-6/antigravity.md)
 
 ---
 
@@ -67,13 +68,9 @@ Covering everything from how large language models work to hands-on use of Claud
 !!! tip "No Computer Science Background Required"
     This program is designed for researchers and scientists who want **practical AI literacy** — not to become AI engineers. Each module is self-contained and takes 20–40 minutes to complete.
 
-Each module builds on the previous, but you can also jump directly to any topic using the navigation on the left. Module 6 (AI Tools) is the most immediately practical and can be read independently.
+Each module builds on the previous, but you can also jump directly to any topic using the navigation. **Module 6 (AI Tools) is the most immediately practical and can be read independently.**
 
 ---
-
-## About This Program
-
-This curriculum is based on lectures by **Dr. Ian McCullough, Johns Hopkins University**, adapted for the ALS research context by ALS TDI. All AI tool guidance reflects tools available as of 2025–2026.
 
 !!! warning "Data Privacy Reminder"
     Never input patient health information (PHI), unpublished trial data, or proprietary research data into public AI tools. See the [security guidance in Module 6](module-6/antigravity.md#security-data-governance-checklist) for details.
