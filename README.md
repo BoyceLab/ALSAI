@@ -1,10 +1,9 @@
 # AI for ALS Research — Training Program
 
-A practical AI training curriculum for **ALS TDI** researchers, scientists, and staff. Adapted from Dr. Ian McCullough's Johns Hopkins AI program and translated into the ALS research context.
-
+A practical AI training curriculum for **ALS TDI** researchers, scientists, and staff. 
 ## 📚 View the Site
 
-**Live site:** `https://alstdi.github.io/als-ai-training/`
+**Live site:** `https://alstdi.github.io/alsai/`
 
 ## 🗂 Curriculum
 
@@ -18,29 +17,6 @@ A practical AI training curriculum for **ALS TDI** researchers, scientists, and 
 | **Module 6a: Claude & Anthropic** | Literature review, grant writing, data analysis prompts |
 | **Module 6b: Google Antigravity** | Bioinformatics pipelines, OMOP, CCDA/FHIR extraction |
 
-## 🚀 Local Development
-
-```bash
-# Clone the repo
-git clone https://github.com/alstdi/als-ai-training.git
-cd als-ai-training
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Serve locally with live reload
-mkdocs serve
-
-# Open http://127.0.0.1:8000
-```
-
-## 🏗 Build & Deploy
-
-The site deploys automatically to GitHub Pages on every push to `main` via the GitHub Actions workflow in `.github/workflows/deploy.yml`.
-
-To build manually:
-```bash
-mkdocs build
 ```
 
 Output is written to the `site/` directory.
@@ -93,4 +69,4 @@ This training program contains no patient data. All example data in prompt templ
 
 ---
 
-*Adapted from Dr. Ian McCullough, Johns Hopkins University. ALS TDI, 2025–2026.*
+
