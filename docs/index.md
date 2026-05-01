@@ -8,7 +8,8 @@ Covering everything from how large language models work to hands-on use of Claud
 
 ## Curriculum Overview
 
-### 🧱 Module 1 — Foundations of AI
+### Module 1 — Foundations of AI
+
 Foundation models, transformers, vector embeddings, and how LLMs actually work.
 
 - [Foundation Models](module-1/foundation-models.md)
@@ -17,7 +18,8 @@ Foundation models, transformers, vector embeddings, and how LLMs actually work.
 
 ---
 
-### 🔧 Module 2 — Working with AI
+### Module 2 — Working with AI
+
 Fine-tuning models for specialized domains, hallucination risks, and LLM security vulnerabilities.
 
 - [Fine-Tuning LLMs](module-2/fine-tuning.md)
@@ -26,7 +28,8 @@ Fine-tuning models for specialized domains, hallucination risks, and LLM securit
 
 ---
 
-### 🖼️ Module 3 — Image & Multimodal AI
+### Module 3 — Image & Multimodal AI
+
 GANs, diffusion models, and synthetic image generation for biomedical research.
 
 - [Image Generation](module-3/image-generation.md)
@@ -34,7 +37,8 @@ GANs, diffusion models, and synthetic image generation for biomedical research.
 
 ---
 
-### 🧮 Module 4 — Symbolic AI
+### Module 4 — Symbolic AI
+
 Rule-based reasoning, formal methods, and hybrid AI for transparent, auditable decisions.
 
 - [Symbolic AI Fundamentals](module-4/symbolic-ai.md)
@@ -44,7 +48,8 @@ Rule-based reasoning, formal methods, and hybrid AI for transparent, auditable d
 
 ---
 
-### 🗄️ Module 5 — Data & Databases
+### Module 5 — Data & Databases
+
 Relational calculus, query optimization, chase algorithms, and scalable data integration.
 
 - [Relational Calculus](module-5/relational-calculus.md)
@@ -55,7 +60,8 @@ Relational calculus, query optimization, chase algorithms, and scalable data int
 
 ---
 
-### ✦ Module 6 — AI Tools for Researchers
+### Module 6 — AI Tools for Researchers
+
 Hands-on guides to Claude and Google Antigravity for real research workflows.
 
 - [Claude & Anthropic for Research](module-6/claude-anthropic.md)
@@ -65,12 +71,12 @@ Hands-on guides to Claude and Google Antigravity for real research workflows.
 
 ## How to Use This Program
 
-!!! tip "No Computer Science Background Required"
-    This program is designed for researchers and scientists who want **practical AI literacy** — not to become AI engineers. Each module is self-contained and takes 20–40 minutes to complete.
+Each module is self-contained and takes 20-40 minutes to complete. No computer science background required — this program is designed for researchers and scientists who want practical AI literacy, not to become AI engineers.
 
-Each module builds on the previous, but you can also jump directly to any topic using the navigation. **Module 6 (AI Tools) is the most immediately practical and can be read independently.**
+Each module builds on the previous, but you can also jump directly to any topic using the navigation on the left. Module 6 (AI Tools) is the most immediately practical and can be read independently.
 
 ---
 
-!!! warning "Data Privacy Reminder"
-    Never input patient health information (PHI), unpublished trial data, or proprietary research data into public AI tools. See the [security guidance in Module 6](module-6/antigravity.md#security-data-governance-checklist) for details.
+## Data Privacy Reminder
+
+Never input patient health information (PHI), unpublished trial data, or proprietary research data into public AI tools. See the security guidance in the [Google Antigravity module](module-6/antigravity.md) for details.
