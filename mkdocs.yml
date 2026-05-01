@@ -1,0 +1,108 @@
+site_name: AI for ALS Research
+site_description: A practical AI training program for ALS TDI researchers, scientists, and staff
+site_author: ALS TDI
+site_url: https://alstdi.github.io/als-ai-training/
+
+repo_name: alstdi/als-ai-training
+repo_url: https://github.com/alstdi/als-ai-training
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: DM Sans
+    code: DM Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.als.net
+    - icon: fontawesome/brands/github
+      link: https://github.com/alstdi
+
+extra_css:
+  - assets/custom.css
+
+plugins:
+  - search
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - "Module 1: Foundations":
+    - "Foundation Models": module-1/foundation-models.md
+    - "Large Language Models": module-1/large-language-models.md
+    - "Why LLMs Appear Smart": module-1/why-llms-appear-smart.md
+  - "Module 2: Working with AI":
+    - "Fine-Tuning LLMs": module-2/fine-tuning.md
+    - "Competence & Hallucination": module-2/competence-hallucination.md
+    - "LLM Vulnerabilities": module-2/vulnerabilities.md
+  - "Module 3: Image & Multimodal AI":
+    - "Image Generation": module-3/image-generation.md
+    - "Autoencoders & Diffusion": module-3/autoencoders-diffusion.md
+  - "Module 4: Symbolic AI":
+    - "Symbolic AI Fundamentals": module-4/symbolic-ai.md
+    - "Business Applications": module-4/applications.md
+    - "Limitations & Hybrid AI": module-4/limitations-hybrid.md
+    - "Formal Methods": module-4/formal-methods.md
+  - "Module 5: Data & Databases":
+    - "Relational Calculus": module-5/relational-calculus.md
+    - "Calculus vs. Algebra": module-5/calculus-vs-algebra.md
+    - "Query Optimization": module-5/query-optimization.md
+    - "Chase Algorithm": module-5/chase-algorithm.md
+    - "Data Integration": module-5/data-integration.md
+  - "Module 6: AI Tools":
+    - "Claude & Anthropic": module-6/claude-anthropic.md
+    - "Google Antigravity": module-6/antigravity.md
