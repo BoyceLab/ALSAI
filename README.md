@@ -5,7 +5,7 @@ A practical AI training curriculum for **ALS TDI** researchers, scientists, and 
 
 **Live site:** `https://alstdi.github.io/alsai/`
 
-## 🗂 Curriculum
+## 🗂 Curriculum.
 
 | Module | Topics |
 |--------|--------|
