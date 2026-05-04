@@ -1,7 +1,7 @@
 # Foundation Models
 
 !!! note "Attribution"
-    This lesson is inspired by and heavily references the Coursera course [*Generative AI for Leaders*](https://www.coursera.org/learn/generative-ai-genai), taught by Dr. Ian McCulloh. Examples, framing, and pedagogical structure draw substantially from his instruction.
+    This course is inspired by and heavily references the Coursera course [*Generative AI for Leaders*](https://www.coursera.org/learn/generative-ai-genai), taught by Dr. Ian McCulloh. Examples, framing, and pedagogical structure draw substantially from his instruction.
 
 !!! abstract "Module 1 · Lesson 1"
     **What are foundation models, how are they trained, and why do they power almost all modern generative AI?**
