@@ -1,0 +1,98 @@
+/* ALS TDI Brand Colors */
+:root {
+  --catalyst-purple: #6B2D8B;
+  --catalyst-purple-dark: #4A1E61;
+  --catalyst-purple-light: #9B59B6;
+  --accent-teal: #1ABC9C;
+}
+
+/* Override Material primary color with Catalyst Purple */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #6B2D8B;
+  --md-primary-fg-color--light: #9B59B6;
+  --md-primary-fg-color--dark: #4A1E61;
+  --md-accent-fg-color: #1ABC9C;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #9B59B6;
+  --md-primary-fg-color--light: #B39DDB;
+  --md-primary-fg-color--dark: #6B2D8B;
+  --md-accent-fg-color: #1ABC9C;
+}
+
+/* Navigation header */
+.md-header {
+  background-color: var(--catalyst-purple-dark);
+}
+
+/* Module tag styling */
+.module-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--catalyst-purple);
+  background: #F5EEF8;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+/* Prompt box styling */
+.prompt-box {
+  border: 1px solid #E8E0F0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.prompt-box-header {
+  background: #4A1E61;
+  color: rgba(255,255,255,0.8);
+  padding: 8px 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Step numbers */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--catalyst-purple);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* Table enhancements */
+.md-typeset table:not([class]) th {
+  background-color: var(--catalyst-purple);
+  color: white;
+}
+
+/* Admonition color for research callouts */
+.md-typeset .admonition.research,
+.md-typeset details.research {
+  border-color: var(--accent-teal);
+}
+.md-typeset .research > .admonition-title,
+.md-typeset .research > summary {
+  background-color: rgba(26, 188, 156, 0.1);
+  border-color: var(--accent-teal);
+}
+.md-typeset .research > .admonition-title::before,
+.md-typeset .research > summary::before {
+  background-color: var(--accent-teal);
+  -webkit-mask-image: var(--md-admonition-icon--note);
+  mask-image: var(--md-admonition-icon--note);
+}
